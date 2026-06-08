@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets
+data/
+
+# Trained models
+models/
+
+# Generated outputs
+outputs/
+
+# Logs
+logs/
+
+# Videos
+*.mp4

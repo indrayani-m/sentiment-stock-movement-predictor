@@ -1,0 +1,36 @@
+project:
+  name: "Sentiment-Driven Stock Movement Predictor using DistilBERT"
+  random_seed: 42
+
+data:
+  tickers: ["AAPL", "TSLA", "NVDA", "AMZN", "MSFT"]
+  default_ticker: "AAPL"
+  start_date: "2020-01-01"
+  end_date: null
+  stock_period: "5y"
+  reddit_limit_per_subreddit: 100
+  subreddits: ["stocks", "investing", "wallstreetbets"]
+
+sentiment:
+  model_name: "distilbert-base-uncased-finetuned-sst-2-english"
+  batch_size: 16
+  max_length: 256
+
+features:
+  rolling_volatility_window: 7
+  fill_missing_sentiment_with_neutral: true
+
+training:
+  test_size: 0.2
+  cv_folds: 5
+  scoring: "f1"
+  model_output: "models/best_model.joblib"
+  metrics_output: "outputs/model_metrics.csv"
+
+paths:
+  stock_data_dir: "data/stock"
+  reddit_data_dir: "data/reddit"
+  sentiment_data_dir: "data/sentiment"
+  processed_data_dir: "data/processed"
+  models_dir: "models"
+  outputs_dir: "outputs"
