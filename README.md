@@ -6,10 +6,7 @@ Predict whether a stock will move **UP** or **DOWN** on the next trading day usi
 
 ## 🎥 Project Demo
 
-**Watch the complete application demo:**
-
-👉 [▶ Watch Demo Video](./assets/demo.mp4)
-
+<a href="./assets/demo.mp4">▶ Watch Demo Video</a>
 ---
 
 ## 📱 Dashboard Preview
