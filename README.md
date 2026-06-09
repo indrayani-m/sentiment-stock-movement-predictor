@@ -110,20 +110,20 @@ flowchart LR
 
 ### Sentiment Data
 
-The project currently uses generated Reddit-style sentiment data to demonstrate the complete NLP workflow.
+The current version uses synthetic Reddit-style financial discussions generated for educational and experimental purposes.
 
-Generated sentiment metrics include:
+DistilBERT is used to generate sentiment-based features including:
 
-* Average Sentiment
-* Weighted Sentiment
-* Positive Ratio
-* Negative Ratio
-* Sentiment Momentum
-* Post Count
-* Average Post Score
-* Average Comment Count
+- Average Sentiment
+- Weighted Sentiment
+- Positive Ratio
+- Negative Ratio
+- Sentiment Momentum
+- Post Count
+- Average Post Score
+- Average Comment Count
 
-> Future versions will integrate live Reddit API and financial news sentiment sources.
+> Note: Real Reddit API integration is planned as a future enhancement. The current implementation demonstrates the complete NLP and sentiment-analysis pipeline using generated financial discussion data.
 
 ---
 
@@ -289,6 +289,13 @@ Validation Strategy:
 * Compared stock-only and sentiment-enhanced feature sets
 * Logistic Regression achieved the highest F1 Score (**0.5378**)
 * Built an interactive dashboard for stock prediction and analysis
+
+
+### Current Implementation Notes
+
+- Historical stock data is collected from Yahoo Finance using `yfinance`.
+- Sentiment features are generated using DistilBERT on synthetic Reddit-style financial discussions.
+- The project demonstrates the complete end-to-end NLP + ML workflow and can be extended to live Reddit API data with minimal changes.
 
 ### Observations
 
