@@ -1,4 +1,4 @@
-# 📈 AI-Powered Stock Movement Predictor using DistilBERT and Machine Learning
+# 📈 Sentiment-driven Stock Movement Predictor using DistilBERT and Machine Learning
 
 Predict whether a stock will move **UP** or **DOWN** on the next trading day using historical stock market data, Transformer-based sentiment analysis, and machine learning models.
 
