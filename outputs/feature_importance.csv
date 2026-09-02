@@ -1,0 +1,16 @@
+feature,importance
+daily_return,0.07788254531621937
+volatility,0.06901454877598596
+7_day_return,0.04674609963340355
+5_day_moving_average,0.032771323306208425
+10_day_moving_average,0.03196094926733678
+volume_change_percent,0.02236997071214357
+3_day_return,0.021778877744115306
+average_sentiment,0.0
+weighted_sentiment,0.0
+positive_ratio,0.0
+negative_ratio,0.0
+sentiment_momentum,0.0
+post_count,0.0
+avg_score,0.0
+avg_num_comments,0.0
