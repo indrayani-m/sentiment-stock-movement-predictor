@@ -6,7 +6,7 @@ Predict whether a stock will move **UP** or **DOWN** on the next trading day usi
 
 ## 🎥 Project Demo
 
-<a href="./assets/demo.mp4">▶ Watch Demo Video</a>
+[🚀 Live Demo](https://sentiment-stock-movement-predictor.streamlit.app)
 ---
 
 ## 📱 Dashboard Preview
